@@ -19,7 +19,7 @@ public class ParrafoDeLongitudFija {
 
     public static void main(String[] args) {
         String entrada = "When you play the game of thrones, you win or you die.";
-        int longitud = 13;
+        int longitud = 38;
 
         String formatoDelParrafo = toFixedLengthParagraph(entrada, longitud);
         System.out.println(formatoDelParrafo);
